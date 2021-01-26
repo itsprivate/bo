@@ -1,11 +1,11 @@
 const siteMetadata = {
-  siteUrl: "https://news.buzzing.cc",
+  siteUrl: "https://books.buzzing.cc",
   author: `Buzzing.cc`,
   locale: "zh",
-  title: "谷歌全球新闻头条",
-  shortTitle: "全球头条",
-  description: "用中文浏览谷歌全球新闻(西方媒体)头条",
-  keywords: ["buzzing", "西方媒体", "国外新闻", "世界新闻", "突发新闻"],
+  title: "Buzzing 读书",
+  shortTitle: "Buzzing读书",
+  description: "用中文浏览读书，荐书相关的讨论",
+  keywords: ["buzzing", "读书", "阅读", "书籍推荐"],
   telegram: "@buzzingcc",
   telegram_chat_id: "-1001406368978",
   menuLinks: [
@@ -38,8 +38,13 @@ const siteMetadata = {
   ],
   social: [
     {
-      name: `Google News`,
-      url: `https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB`,
+      name: `Reddit Books`,
+      url: `https://www.reddit.com/r/books/`,
+      external: true,
+    },
+    {
+      name: "Suggest Me A Book",
+      url: "https://www.reddit.com/r/suggestmeabook/",
       external: true,
     },
     {
@@ -51,10 +56,10 @@ const siteMetadata = {
   localize: [
     {
       locale: "en",
-      title: `Buzzing on World News`,
-      shortTitle: "BuzzNews",
-      description: `See what's buzzing on Google World News Headline in your native language`,
-      keywords: ["buzzing", "Breaking News"],
+      title: `Buzzing Books`,
+      shortTitle: "BuzzBooks",
+      description: `See what's buzzing on Books in your native language`,
+      keywords: ["buzzing", "Books", "Books Suggestion"],
       menuLinks: [
         // {
         //   name: "Weekly Selection",
@@ -69,10 +74,10 @@ const siteMetadata = {
     },
     {
       locale: "zh-Hant",
-      title: "谷歌全球新聞頭條",
-      shortTitle: "全球頭條",
-      description: "用中文瀏覽谷歌全球新聞(西方媒體)頭條",
-      keywords: ["buzzing", "西方媒體", "國外新聞", "世界新聞", "突發新聞"],
+      title: "Buzzing 讀書",
+      shortTitle: "Buzzing讀書",
+      description: "用中文瀏覽讀書，薦書相關的討論",
+      keywords: ["buzzing", "讀書", "閱讀", "書籍推薦"],
       menuLinks: [
         // {
         // name: "每週精選",
