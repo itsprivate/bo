@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://books.buzzing.cc/sitemap.xml
+Host: https://books.buzzing.cc
