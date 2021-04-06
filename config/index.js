@@ -90,6 +90,24 @@ const siteMetadata = {
         },
       ],
     },
+    {
+      locale: "ja",
+      title: "Buzzing 読書",
+      shortTitle: "Buzzing読書",
+      description: "人気の読書を日本語で閲覧",
+      keywords: ["buzzing", "読書"],
+      menuLinks: [
+        // {
+        // name: "每週精選",
+        // url: "/zh-Hant/issues",
+        // },
+        // {
+        //   name: "RSS",
+        //   url: "/zh-Hant/rss.xml",
+        //   prefetch: false,
+        // },
+      ],
+    },
   ],
 };
 
